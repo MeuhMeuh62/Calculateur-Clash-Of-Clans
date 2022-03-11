@@ -146,7 +146,7 @@ if 0 < hdv < 15:
                                     A8 = A8 + 1
                                     A10 = A10 + 1
                                     A11 = A11 + 1
-                                    B1 = B1 + 1
+                                    B1 = B1 + 2
                                     B3 = B3 + 1
                                     B4 = B4 + 2
                                     B5 = B5 + 1
@@ -165,7 +165,7 @@ if 0 < hdv < 15:
                                         A10 = A10 + 1
                                         A11 = A11 + 1
                                         B3 = B3 + 1
-                                        B5 = B5 + 1
+                                        B5 = B5 + 2
                                         R1 = R1 + 25
                                         D2 = D2 + 1
                                         D3 = D3 + 1
@@ -212,41 +212,42 @@ if 0 < hdv < 15:
                                                             B6 = B6 + 1
                                                             R1 = R1 + 25
                                                             C8 = C8 + 1
-print(A1)
-print(A2)
-print(A3)
-print(A4)
-print(A5)
-print(A6)
-print(A7)
-print(A8)
-print(A9)
-print(A10)
-print(A11)
-print()
-print(B1)
-print(B2)
-print(B3)
-print(B4)
-print(B5)
-print(B6)
-print(B7)
-print()
-print(R1)
-print()
-print(C1)
-print(C2)
-print(C3)
-print(C4)
-print(C5)
-print(C6)
-print(C7)
-print(C8)
-print()
-print(D1)
-print(D2)
-print(D3)
-print(D4)
-print(D5)
-print(D6)
-print(D7)
+if A1 > 0:
+    A1n1 = int(input("Niveau Aigle Artilleur = 1 ?"))
+    A1n2 = int(input("Niveau Aigle Artilleur = 2 ?"))
+    A1n3 = int(input("Niveau Aigle Artilleur = 3 ?"))
+    A1n4 = int(input("Niveau Aigle Artilleur = 4 ?"))
+    A1n5 = int(input("Niveau Aigle Artilleur = 5 ?"))
+if A2 > 0:
+    A2n1 = int(input("Niveau Arc-X = 1 ?"))
+    A2n2 = int(input("Niveau Arc-X = 2 ?"))
+    A2n3 = int(input("Niveau Arc-X = 3 ?"))
+    A2n4 = int(input("Niveau Arc-X = 4 ?"))
+    A2n5 = int(input("Niveau Arc-X = 5 ?"))
+    A2n6 = int(input("Niveau Arc-X = 6 ?"))
+    A2n7 = int(input("Niveau Arc-X = 7 ?"))
+    A2n8 = int(input("Niveau Arc-X = 8 ?"))
+    A2n9 = int(input("Niveau Arc-X = 9 ?"))
+if A3 > 0:
+    A3n1 = int(input("Niveau Canon = 1 ?"))
+    A3n2 = int(input("Niveau Canon = 2 ?"))
+    A3n3 = int(input("Niveau Canon = 3 ?"))
+    A3n4 = int(input("Niveau Canon = 4 ?"))
+    A3n5 = int(input("Niveau Canon = 5 ?"))
+    A3n6 = int(input("Niveau Canon = 6 ?"))
+    A3n7 = int(input("Niveau Canon = 7 ?"))
+    A3n8 = int(input("Niveau Canon = 8 ?"))
+    A3n9 = int(input("Niveau Canon = 9 ?"))
+    A3n10 = int(input("Niveau Canon = 10 ?"))
+    A3n11 = int(input("Niveau Canon = 11 ?"))
+    A3n12 = int(input("Niveau Canon = 12 ?"))
+    A3n13 = int(input("Niveau Canon = 13 ?"))
+    A3n14 = int(input("Niveau Canon = 14 ?"))
+    A3n15 = int(input("Niveau Canon = 15 ?"))
+    A3n16 = int(input("Niveau Canon = 16 ?"))
+    A3n17 = int(input("Niveau Canon = 17 ?"))
+    A3n18 = int(input("Niveau Canon = 18 ?"))
+    A3n19 = int(input("Niveau Canon = 19 ?"))
+    A3n20 = int(input("Niveau Canon = 20 ?"))
+if A4 > 0:
+    A3n1 = int(input("Niveau Défence Anti-Aérienne = 1 ?"))
