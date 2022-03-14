@@ -244,38 +244,76 @@ if A1 > 0:
                     A1n5 = int(input("Niveau Aigle Artilleur = 5 ?")) + A1n4
                     CoutOr = A1n5 * 20000000 + CoutOr
                     TempsH = A1n5 * 480 + TempsH
-"""
+
 if A2 > 0:
-    A2n1 = int(input("Niveau Arc-X = 1 ?"))
-    A2n2 = int(input("Niveau Arc-X = 2 ?"))
-    A2n3 = int(input("Niveau Arc-X = 3 ?"))
-    A2n4 = int(input("Niveau Arc-X = 4 ?"))
-    A2n5 = int(input("Niveau Arc-X = 5 ?"))
-    A2n6 = int(input("Niveau Arc-X = 6 ?"))
-    A2n7 = int(input("Niveau Arc-X = 7 ?"))
-    A2n8 = int(input("Niveau Arc-X = 8 ?"))
-    A2n9 = int(input("Niveau Arc-X = 9 ?"))
+    if hdv >= 9:
+        A2n1 = int(input("Niveau Arc-X = 1 ?"))
+        CoutOr = A2n1 * 1000000 + CoutOr
+        TempsH = A2n1 * 48 + TempsH
+        A2n2 = int(input("Niveau Arc-X = 2 ?")) + A2n1
+        CoutOr = A2n2 * 1600000 + CoutOr
+        TempsH = A2n2 * 96 + TempsH
+        A2n3 = int(input("Niveau Arc-X = 3 ?")) + A2n2
+        CoutOr = A2n3 * 2400000 + CoutOr
+        TempsH = A2n3 * 120 + TempsH
+        if hdv >= 10:
+            A2n4 = int(input("Niveau Arc-X = 4 ?")) + A2n3
+            CoutOr = A2n4 * 4000000 + CoutOr
+            TempsH = A2n4 * 144 + TempsH
+            if hdv >= 11:
+                A2n5 = int(input("Niveau Arc-X = 5 ?")) + A2n4
+                CoutOr = A2n5 * 7000000 + CoutOr
+                TempsH = A2n5 * 216 + TempsH
+                if hdv >= 12:
+                    A2n6 = int(input("Niveau Arc-X = 6 ?"))
+                    CoutOr = A2n6 * 10500000 + CoutOr
+                    TempsH = A2n6 * 336 + TempsH
+                    if hdv >= 13:
+                        A2n7 = int(input("Niveau Arc-X = 7 ?"))
+                        CoutOr = A2n7 * 14000000 + CoutOr
+                        TempsH = A2n7 * 384
+                        A2n8 = int(input("Niveau Arc-X = 8 ?"))
+                        CoutOr = A2n8 * 17000000 + CoutOr
+                        TempsH = A2n8 * 408
+                        if hdv >= 14:
+                            A2n9 = int(input("Niveau Arc-X = 9 ?"))
+                            CoutOr = A2n9 * 18500000
+                            TempsH = A2n9 * 456
 if A3 > 0:
-    A3n1 = int(input("Niveau Canon = 1 ?"))
-    A3n2 = int(input("Niveau Canon = 2 ?"))
-    A3n3 = int(input("Niveau Canon = 3 ?"))
-    A3n4 = int(input("Niveau Canon = 4 ?"))
-    A3n5 = int(input("Niveau Canon = 5 ?"))
-    A3n6 = int(input("Niveau Canon = 6 ?"))
-    A3n7 = int(input("Niveau Canon = 7 ?"))
-    A3n8 = int(input("Niveau Canon = 8 ?"))
-    A3n9 = int(input("Niveau Canon = 9 ?"))
-    A3n10 = int(input("Niveau Canon = 10 ?"))
-    A3n11 = int(input("Niveau Canon = 11 ?"))
-    A3n12 = int(input("Niveau Canon = 12 ?"))
-    A3n13 = int(input("Niveau Canon = 13 ?"))
-    A3n14 = int(input("Niveau Canon = 14 ?"))
-    A3n15 = int(input("Niveau Canon = 15 ?"))
-    A3n16 = int(input("Niveau Canon = 16 ?"))
-    A3n17 = int(input("Niveau Canon = 17 ?"))
-    A3n18 = int(input("Niveau Canon = 18 ?"))
-    A3n19 = int(input("Niveau Canon = 19 ?"))
-    A3n20 = int(input("Niveau Canon = 20 ?"))
+    if hdv >= 1:
+        A3n1 = int(input("Niveau Canon = 1 ?"))
+        if hdv >= 2:
+            A3n2 = int(input("Niveau Canon = 2 ?"))
+            A3n3 = int(input("Niveau Canon = 3 ?"))
+            if hdv >= 3:
+                A3n4 = int(input("Niveau Canon = 4 ?"))
+                if hdv >= 4:
+                    A3n5 = int(input("Niveau Canon = 5 ?"))
+                    if hdv >= 5:
+                        A3n6 = int(input("Niveau Canon = 6 ?"))
+                        if hdv >= 6:
+                            A3n7 = int(input("Niveau Canon = 7 ?"))
+                            if hdv >= 7:
+                                A3n8 = int(input("Niveau Canon = 8 ?"))
+                                if hdv >= 8:
+                                    A3n9 = int(input("Niveau Canon = 9 ?"))
+                                    A3n10 = int(input("Niveau Canon = 10 ?"))
+                                    if hdv >= 9:
+                                        A3n11 = int(input("Niveau Canon = 11 ?"))
+                                        if hdv >= 10:
+                                            A3n12 = int(input("Niveau Canon = 12 ?"))
+                                            A3n13 = int(input("Niveau Canon = 13 ?"))
+                                            if hdv >= 11:
+                                                A3n14 = int(input("Niveau Canon = 14 ?"))
+                                                A3n15 = int(input("Niveau Canon = 15 ?"))
+                                                if hdv >= 12:
+                                                    A3n16 = int(input("Niveau Canon = 16 ?"))
+                                                    A3n17 = int(input("Niveau Canon = 17 ?"))
+                                                    if hdv >= 13:
+                                                        A3n18 = int(input("Niveau Canon = 18 ?"))
+                                                        A3n19 = int(input("Niveau Canon = 19 ?"))
+                                                        if hdv >= 14:
+                                                            A3n20 = int(input("Niveau Canon = 20 ?"))
 if A4 > 0:
     A4n1 = int(input("Niveau Défence Anti-Aérienne = 1 ?"))
     A4n2 = int(input("Niveau Défence Anti-Aérienne = 2 ?"))
@@ -385,7 +423,6 @@ if A12 > 0:
     A12n12 = int(input("Niveau Mortier = 12 ?"))
     A12n13 = int(input("Niveau Mortier = 13 ?"))
     A12n14 = int(input("Niveau Mortier = 14 ?"))
-"""
 
 print("Tu deveras payer : " + str(CoutOr))
 print("Ca prendras : " + str(TempsH) + " heures.")
